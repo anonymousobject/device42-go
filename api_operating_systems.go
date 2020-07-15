@@ -54,7 +54,7 @@ func (a *OperatingSystemsApiService) DeleteDeviceOs(ctx context.Context, deviceO
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -143,7 +143,7 @@ func (a *OperatingSystemsApiService) DeleteOperatingSystems(ctx context.Context,
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -245,7 +245,7 @@ func (a *OperatingSystemsApiService) GetDeviceOs(ctx context.Context, localVarOp
 		localVarQueryParams.Add("os_id", parameterToString(localVarOptionals.OsId.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -357,7 +357,7 @@ func (a *OperatingSystemsApiService) GetOperatingSystems(ctx context.Context, lo
 		localVarQueryParams.Add("category", parameterToString(localVarOptionals.Category.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -463,7 +463,7 @@ func (a *OperatingSystemsApiService) PostDeviceOs(ctx context.Context, localVarO
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -591,7 +591,7 @@ func (a *OperatingSystemsApiService) PostOperatingSystems(ctx context.Context, l
 		localVarQueryParams.Add("licensed_count", parameterToString(localVarOptionals.LicensedCount.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)

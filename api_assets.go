@@ -54,7 +54,7 @@ func (a *AssetsApiService) DeleteAssets(ctx context.Context, assetId int32) (int
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -226,7 +226,7 @@ func (a *AssetsApiService) GetAssets(ctx context.Context, localVarOptionals *Ass
 		localVarQueryParams.Add("related_device_id", parameterToString(localVarOptionals.RelatedDeviceId.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -325,7 +325,7 @@ func (a *AssetsApiService) GetAssetsAssetId(ctx context.Context, assetId int32, 
 		localVarQueryParams.Add("include_cols", parameterToString(localVarOptionals.IncludeCols.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -484,7 +484,7 @@ func (a *AssetsApiService) PostAssets(ctx context.Context, type_ string, localVa
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -749,7 +749,7 @@ func (a *AssetsApiService) PutAssets(ctx context.Context, localVarOptionals *Ass
 		localVarQueryParams.Add("category", parameterToString(localVarOptionals.Category.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -964,7 +964,7 @@ func (a *AssetsApiService) PutCustomFieldsAsset(ctx context.Context, key string,
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)

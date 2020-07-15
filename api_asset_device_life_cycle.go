@@ -86,7 +86,7 @@ func (a *AssetDeviceLifeCycleApiService) GetLifecycleEvent(ctx context.Context, 
 		localVarQueryParams.Add("date_lt", parameterToString(localVarOptionals.DateLt.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -194,7 +194,7 @@ func (a *AssetDeviceLifeCycleApiService) PutLifecycleEvent(ctx context.Context, 
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)

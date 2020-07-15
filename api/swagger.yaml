@@ -65,7 +65,6 @@ host: "swaggerdemo.device42.com"
 schemes:
 - "https"
 consumes:
-- "application/json"
 - "application/x-www-form-urlencoded"
 produces:
 - "application/json"

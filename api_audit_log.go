@@ -76,7 +76,7 @@ func (a *AuditLogApiService) GetAuditlogs(ctx context.Context, localVarOptionals
 		localVarQueryParams.Add("action_time_lt", parameterToString(localVarOptionals.ActionTimeLt.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)

@@ -64,7 +64,7 @@ func (a *ReportsApiService) GetReports(ctx context.Context, id int32, localVarOp
 		localVarQueryParams.Add("csv_format", parameterToString(localVarOptionals.CsvFormat.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)

@@ -61,7 +61,7 @@ func (a *CertificatesApiService) GetCertificates(ctx context.Context, localVarOp
 		localVarQueryParams.Add("certificate_id", parameterToString(localVarOptionals.CertificateId.Value(), ""))
 	}
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
@@ -201,7 +201,7 @@ func (a *CertificatesApiService) PostUpdateCertificates(ctx context.Context, loc
 	localVarFormParams := url.Values{}
 
 	// to determine the Content-Type header
-	localVarHttpContentTypes := []string{"application/json", "application/x-www-form-urlencoded"}
+	localVarHttpContentTypes := []string{"application/x-www-form-urlencoded"}
 
 	// set Content-Type header
 	localVarHttpContentType := selectHeaderContentType(localVarHttpContentTypes)
