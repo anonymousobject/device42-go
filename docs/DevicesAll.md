@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **Cpucore** | [***interface{}**](interface{}.md) |  | [optional] [default to null]
 **Cpucount** | [***interface{}**](interface{}.md) |  | [optional] [default to null]
 **Cpuspeed** | [***interface{}**](interface{}.md) |  | [optional] [default to null]
-**CustomFields** | [***DeviceAllCustomField**](deviceAllCustomField.md) |  | [optional] [default to null]
+**CustomFields** | [**[]DeviceAllCustomFieldData**](deviceAllCustomFieldData.md) |  | [optional] [default to null]
 **Customer** | [***interface{}**](interface{}.md) |  | [optional] [default to null]
 **CustomerId** | [***interface{}**](interface{}.md) |  | [optional] [default to null]
 **DeviceExternalLinks** | [***DeviceAllExternalLink**](deviceAllExternalLink.md) |  | [optional] [default to null]

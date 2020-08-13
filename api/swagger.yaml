@@ -40014,7 +40014,9 @@ definitions:
       cpuspeed:
         example: "3300.0"
       custom_fields:
-        $ref: "#/definitions/deviceAllCustomField"
+        type: "array"
+        items:
+          $ref: "#/definitions/deviceAllCustomFieldData"
       customer:
         example: "Infrastructure Services"
       customer_id:
@@ -40191,10 +40193,13 @@ definitions:
     type: "object"
     properties:
       key:
+        type: "string"
         example: "Skynet"
       notes:
+        type: "string"
         example: ""
       value:
+        type: "string"
         example: "T1000"
   deviceAllExternalLink:
     type: "array"

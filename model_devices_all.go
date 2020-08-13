@@ -20,7 +20,7 @@ type DevicesAll struct {
 	Cpucore *interface{} `json:"cpucore,omitempty"`
 	Cpucount *interface{} `json:"cpucount,omitempty"`
 	Cpuspeed *interface{} `json:"cpuspeed,omitempty"`
-	CustomFields *DeviceAllCustomField `json:"custom_fields,omitempty"`
+	CustomFields []DeviceAllCustomFieldData `json:"custom_fields,omitempty"`
 	Customer *interface{} `json:"customer,omitempty"`
 	CustomerId *interface{} `json:"customer_id,omitempty"`
 	DeviceExternalLinks *DeviceAllExternalLink `json:"device_external_links,omitempty"`

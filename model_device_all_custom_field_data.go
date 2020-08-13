@@ -11,7 +11,7 @@
 package swagger
 
 type DeviceAllCustomFieldData struct {
-	Key *interface{} `json:"key,omitempty"`
-	Notes *interface{} `json:"notes,omitempty"`
-	Value *interface{} `json:"value,omitempty"`
+	Key string `json:"key,omitempty"`
+	Notes string `json:"notes,omitempty"`
+	Value string `json:"value,omitempty"`
 }
